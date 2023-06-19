@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="521.0" prefWidth="767.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.restaurant.EmployeeController">
+   <children>
+      <TableView prefHeight="521.0" prefWidth="767.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Name" />
+          <TableColumn prefWidth="75.0" text="Postion" />
+            <TableColumn prefWidth="123.0" text="Working Hour" />
+            <TableColumn prefWidth="102.0" text="Waorking Day" />
+            <TableColumn minWidth="0.0" prefWidth="0.0" text="Postion" />
+            <TableColumn prefWidth="125.0" text="Hourly_Salary" />
+            <TableColumn prefWidth="100.0" text="Salles" />
+            <TableColumn minWidth="0.0" prefWidth="163.0" text="Bonus" />
+        </columns>
+      </TableView>
+   </children>
+</HBox>
